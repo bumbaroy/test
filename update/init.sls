@@ -1,6 +1,4 @@
 {% if grains['os_family'] == 'Debian' %}
-include: 
-  - updates/blacklist
 
 aptupdates:
   pkg.uptodate:
