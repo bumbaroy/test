@@ -1,5 +1,5 @@
 base:
-  '- /srv/salt':
+  '*':
     - vim
     - aide
     - nagios-monitoring
