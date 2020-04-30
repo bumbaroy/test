@@ -5,18 +5,18 @@ def function():
     host = gethostname()
     grains = {}
     if "webserver1" in host:
-        grains['update'] = "firstwave"
+        grains['updates'] = "firstwave"
     elif "webserver2" in host:
-        grains['update'] = "firstwave"
+        grains['updates'] = "firstwave"
     elif "webserver3" in host:
-        grains['update'] = "firstwave"
+        grains['updates'] = "firstwave"
     elif "load-balancer" in host:
-        grains['update'] = "secondwave"
+        grains['updates'] = "secondwave"
     elif "nagios" in host:
-        grains['update'] = "secondwave"
+        grains['updates'] = "secondwave"
     elif "salt-master" in host:
-        grains['update'] = "secondwave"
+        grains['updates'] = "secondwave"
     else:
-        grains['update'] = "finalwave"
+        grains['updates'] = "finalwave"
     return grains
 
