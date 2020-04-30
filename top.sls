@@ -1,7 +1,7 @@
 base:
   '*':
     - vim
-    - nagios
+    - nagios-monitoring
     - htop
     - update
     - haproxy
