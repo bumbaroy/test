@@ -1,9 +1,9 @@
 base:
   '*':
     - vim
+    - aide
     - nagios-monitoring
     - htop
-    - update
     - haproxy
     - nginx
     - git 
