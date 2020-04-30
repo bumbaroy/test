@@ -1,2 +1,0 @@
-salt-cloud:
-  apt.held
